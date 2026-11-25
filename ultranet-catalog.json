@@ -1,0 +1,360 @@
+{
+  "version": 2,
+  "updated": "2026-11-25",
+  "statuses": {
+    "works": "עובד",
+    "partial": "עובד חלקית",
+    "broken": "לא עובד כרגע",
+    "untested": "טרם נבדק"
+  },
+  "categories": [
+    {
+      "id": "transport",
+      "name": "תחבורה וניווט"
+    },
+    {
+      "id": "parking",
+      "name": "חניה ורכב"
+    },
+    {
+      "id": "charging",
+      "name": "טעינת רכב חשמלי"
+    },
+    {
+      "id": "payments",
+      "name": "תשלומים"
+    },
+    {
+      "id": "banks",
+      "name": "בנקים"
+    },
+    {
+      "id": "cards",
+      "name": "כרטיסי אשראי"
+    },
+    {
+      "id": "health",
+      "name": "קופות חולים"
+    },
+    {
+      "id": "smarthome",
+      "name": "בית חכם"
+    },
+    {
+      "id": "services",
+      "name": "שירותים"
+    },
+    {
+      "id": "communication",
+      "name": "תקשורת"
+    }
+  ],
+  "apps": [
+    {
+      "package": "com.waze",
+      "name": "ווייז",
+      "category": "transport",
+      "color": "#33CCFF",
+      "description": "ניווט ברכב עם דיווחי פקקים בזמן אמת.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.tranzmate",
+      "name": "מוביט",
+      "category": "transport",
+      "color": "#F26722",
+      "description": "זמני אוטובוסים ורכבות, ותכנון מסלול בתחבורה ציבורית.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.pcentra.ravkavonlinemobile",
+      "name": "רב־קו אונליין",
+      "category": "transport",
+      "color": "#00A6A6",
+      "description": "טעינת כרטיס רב־קו ובדיקת היתרה.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.gettaxi.android",
+      "name": "גט",
+      "category": "transport",
+      "color": "#FFC800",
+      "description": "הזמנת מונית עד הבית ותשלום באפליקציה.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.moblin.israeltrain",
+      "name": "רכבת ישראל",
+      "category": "transport",
+      "color": "#0D5CAB",
+      "description": "לוח זמנים של רכבות, עדכוני שיבושים ורכישת כרטיס.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.unicell.pangoandroid",
+      "name": "פנגו",
+      "category": "parking",
+      "color": "#1E4FA3",
+      "description": "תשלום על חניה בכחול־לבן ובחניונים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "air.com.cellogroup.Cellopark",
+      "name": "סלופארק",
+      "category": "parking",
+      "color": "#E2231A",
+      "description": "תשלום על חניה ברחוב לפי זמן החניה בפועל.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.driivz.mobile.android.afcon.driver",
+      "name": "אפקון ON-EV",
+      "category": "charging",
+      "color": "#00A651",
+      "description": "איתור עמדות טעינה של אפקון, הפעלת טעינה ותשלום.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "gnrgy.android.emobilityapp",
+      "name": "ג'נרג'י",
+      "category": "charging",
+      "color": "#7AC143",
+      "description": "טעינת רכב חשמלי בעמדות של ג'נרג'י.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "il.evedge.evedge",
+      "name": "EV Edge",
+      "category": "charging",
+      "color": "#1B75BB",
+      "description": "טעינת רכב חשמלי בעמדות של EV Edge.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.bnhp.payments.paymentsapp",
+      "name": "ביט",
+      "category": "payments",
+      "color": "#00B4A0",
+      "description": "העברת כסף לחברים ותשלום בעסקים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.payboxapp",
+      "name": "פייבוקס",
+      "category": "payments",
+      "color": "#5A2D82",
+      "description": "קופה משותפת והעברות כסף בין אנשים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.ideomobile.hapoalim",
+      "name": "בנק הפועלים",
+      "category": "banks",
+      "color": "#E30613",
+      "description": "חשבון הבנק, העברות והפקדת צ'קים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.leumi.leumiwallet",
+      "name": "בנק לאומי",
+      "category": "banks",
+      "color": "#0055A5",
+      "description": "חשבון הבנק, העברות והפקדת צ'קים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.ideomobile.discount",
+      "name": "בנק דיסקונט",
+      "category": "banks",
+      "color": "#7AB800",
+      "description": "חשבון הבנק, העברות והפקדת צ'קים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.MizrahiTefahot.nh",
+      "name": "מזרחי טפחות",
+      "category": "banks",
+      "color": "#F28C00",
+      "description": "חשבון הבנק, העברות והפקדת צ'קים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.fibi.nativeapp",
+      "name": "הבינלאומי",
+      "category": "banks",
+      "color": "#003B71",
+      "description": "חשבון הבנק, העברות והפקדת צ'קים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.ideomobile.leumicard",
+      "name": "מקס",
+      "category": "cards",
+      "color": "#00B2A9",
+      "description": "פירוט עסקאות, מסגרת אשראי והטבות בכרטיס מקס.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.onoapps.cal4u",
+      "name": "כאל",
+      "category": "cards",
+      "color": "#003DA5",
+      "description": "פירוט עסקאות והטבות בכרטיס כאל.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.isracard.hatavot",
+      "name": "ישראכרט",
+      "category": "cards",
+      "color": "#00529B",
+      "description": "פירוט עסקאות, ארנק דיגיטלי והטבות בכרטיס ישראכרט.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "clalit.android",
+      "name": "כללית",
+      "category": "health",
+      "color": "#0077C8",
+      "description": "זימון תורים, תוצאות בדיקות ומרשמים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.ideomobile.maccabi",
+      "name": "מכבי",
+      "category": "health",
+      "color": "#003F7D",
+      "description": "זימון תורים, תוצאות בדיקות ומרשמים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "org.meuhedet.android",
+      "name": "מאוחדת",
+      "category": "health",
+      "color": "#E2001A",
+      "description": "זימון תורים, תוצאות בדיקות ומרשמים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "leumit.mobile",
+      "name": "לאומית",
+      "category": "health",
+      "color": "#00A0DF",
+      "description": "זימון תורים, תוצאות בדיקות ומרשמים.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.ogemary.smarthome",
+      "name": "סוויצ'ר",
+      "category": "smarthome",
+      "color": "#00A3E0",
+      "description": "הדלקה וכיבוי של הדוד, תריסים ומכשירים מרחוק ובתזמון.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "androidclient.electra.com.electraappcontrol",
+      "name": "אלקטרה סמארט",
+      "category": "smarthome",
+      "color": "#E30613",
+      "description": "שליטה במזגן של אלקטרה: הפעלה, טמפרטורה ותזמון.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.tadiran.mytadiran.prod",
+      "name": "תדיראן",
+      "category": "smarthome",
+      "color": "#00539F",
+      "description": "שליטה במזגן של תדיראן מהמחשב.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.sensibo.app",
+      "name": "Sensibo",
+      "category": "smarthome",
+      "color": "#27AAE1",
+      "description": "שליטה במזגן רגיל דרך מתאם Sensibo.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.tuya.smartlife",
+      "name": "Smart Life",
+      "category": "smarthome",
+      "color": "#FF5A00",
+      "description": "שקעים חכמים, נורות ומכשירים של Tuya ו־Smart Life.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.tuya.smart",
+      "name": "Tuya Smart",
+      "category": "smarthome",
+      "color": "#FF4800",
+      "description": "שקעים חכמים ומכשירי בית של Tuya.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.coolkit",
+      "name": "eWeLink",
+      "category": "smarthome",
+      "color": "#1A9FD9",
+      "description": "שקעים ומתגים חכמים של Sonoff.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.israelpost.israelpost",
+      "name": "דואר ישראל",
+      "category": "services",
+      "color": "#E2001A",
+      "description": "מעקב אחרי חבילות וזימון תור בסניף.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.ewavemobile.electriccompany",
+      "name": "חברת החשמל",
+      "category": "services",
+      "color": "#F39200",
+      "description": "חשבונות חשמל, קריאת מונה ודיווח על תקלה.",
+      "needsGoogle": true,
+      "status": "untested"
+    },
+    {
+      "package": "com.whatsapp",
+      "name": "וואטסאפ",
+      "category": "communication",
+      "color": "#25D366",
+      "description": "הודעות ושיחות. מוצג רק למי שמותר לו, לפי החלטת מנהל החנות.",
+      "needsGoogle": true,
+      "status": "untested"
+    }
+  ]
+}

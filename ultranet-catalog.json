@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updated": "2026-11-25",
   "statuses": {
     "works": "עובד",
@@ -130,7 +130,8 @@
       "color": "#7AB800",
       "description": "חשבון הבנק, העברות והפקדת צ'קים.",
       "needsGoogle": true,
-      "status": "untested"
+      "status": "broken",
+      "statusNote": "גוגל לא מאפשרת להוריד את האפליקציה הזו למחשב (היא יורדת רק למכשירים שגוגל מאשרת)."
     },
     {
       "package": "com.MizrahiTefahot.nh",
@@ -220,7 +221,8 @@
       "color": "#00B4A0",
       "description": "העברת כסף לחברים ותשלום בעסקים.",
       "needsGoogle": true,
-      "status": "untested"
+      "status": "broken",
+      "statusNote": "גוגל לא מאפשרת להוריד את האפליקציה הזו למחשב (היא יורדת רק למכשירים שגוגל מאשרת)."
     },
     {
       "package": "com.payboxapp",
